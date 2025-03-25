@@ -421,7 +421,7 @@ async function init() {
       fs.appendFileSync(envPath, `\nNEYNAR_API_KEY="${neynarApiKey}"`);
       fs.appendFileSync(envPath, `\nNEYNAR_CLIENT_ID="${neynarClientId}"`);
     }
-    fs.appendFileSync(envPath, `\nUSE_TUNNEL="${answers.useTunnel}"`);
+    fs.appendFileSync(envPath, `\nUSE_TUNNEL=${answers.useTunnel}`);
     
     fs.unlinkSync(envExamplePath);
     console.log('\nCreated .env.local file from .env.example');
