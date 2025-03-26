@@ -423,7 +423,7 @@ async function init() {
     } else if (useNeynar) {
       console.log('\n⚠️  Could not find a Neynar client ID and/or API key. Please configure Neynar manually in .env.local with NEYNAR_API_KEY and NEYNAR_CLIENT_ID');
     }
-    fs.appendFileSync(envPath, `\nUSE_TUNNEL="${answers.useTunnel}"`);
+    fs.appendFileSync(envPath, `\nUSE_TUNNEL=${answers.useTunnel}`);
     
     fs.unlinkSync(envExamplePath);
     console.log('\nCreated .env.local file from .env.example');
