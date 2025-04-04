@@ -1,4 +1,9 @@
-# Frames v2 Quickstart by Neynar 🪐
+
+## Check latest repo [here](https://github.com/neynarxyz/create-farcaster-mini-app)
+
+-- -- -- -- 
+
+## Farcaster mini apps (formerly frames) Quickstart by Neynar 🪐
 
 A Farcaster Frames v2 quickstart npx script.
 
